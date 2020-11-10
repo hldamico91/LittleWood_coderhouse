@@ -1,0 +1,122 @@
+/*CSS*/
+
+html{
+    font-family: Noto sans jP, sans-serif;
+    font-size: 1rem;
+    background-color: #E5E4E4;
+}
+
+
+.conteiner{
+  width:80%;
+  margin:0 auto;
+  overflow:hidden;
+}
+
+
+@media screen and (max-width: 800px){
+  
+   sidenav {
+   width: 100%}
+
+  section {
+  width: 100% }
+
+  header{
+  width: 100%;}
+
+}
+
+a:link {color:black;}
+a:visited {color:black;}
+a:active {color:black;}
+a:hover {color:black;}
+
+
+.header__logo {
+  grid-area: logo;
+  font-weight: 500;
+ text-align: center;
+ color: black;
+ font-family: Noto sans jP, sans-serif;
+ justify-self: start;
+}
+
+
+.header__logo--uppercase{
+  text-transform: uppercase;
+}
+
+.header__nav{
+  grid-area: header;
+  display: inline-block;
+  background-color: white;
+  color: white;
+  padding: 5px;
+  font-size: 20px;
+   
+}
+
+.Footer__logo{
+  grid-area: footer;
+  font-weight: 500;
+ color: black;
+ font-family: Noto sans jP sans-serif;}
+
+.header{
+  grid-area: header;
+  display: inline-block;
+  background-color: white;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+    background-color: white;
+    padding: 5px;
+    margin: 5px;
+
+}
+
+
+.item {
+  display: inline-block;
+  background-color: white;
+  color: white;
+  font-size: 15px;
+    background-color: white;
+    padding: 5px;
+    margin: 5px;
+}
+
+#menu {text-decoration:none
+
+}
+
+.ColorFondo {
+   background-color: white;
+}
+
+.sectionindex{
+    margin-top: 125px;
+    margin-button: 140px;
+  }
+
+.sidenavindex{
+    margin-top: 125px;
+    margin-button: 140px;
+  }
+
+  .form{
+   border: 2px;
+   color: black;
+  }
+
+  .sidenavcontacto{
+    margin-top: 125px;
+    margin-button: 3rm
+}
+  
+footer{
+    margin-top: 125px;
+    background-color:#EEEEEE;
+    padding: 0 20px 20px 20px;
+  }

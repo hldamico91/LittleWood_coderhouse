@@ -1,0 +1,63 @@
+/* EstiloCardbox*/
+
+.card-img-top {
+  padding: 30px;
+  transition: transform .8s;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.card-img-top:hover {
+  -ms-transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+}
+
+.card-group{
+  height: 200px;
+  width: 700px;
+  margin: 200px 0px
+}
+
+
+
+.animacion {
+   width: 200px; height: 250px;
+   transition: all 2s;       
+}
+.animacion:hover {
+  height: 300px;
+
+}
+
+
+.BoxTaller{
+    display: flex;  
+    flex-direction: row; 
+   justify-content: center;}
+
+.Portada{
+  border: 2px solid red;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.FormatoTaller{
+    border-top:none;
+    background-color: black;
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+    position: sticky;
+
+}
+
+.carousel-inner{
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+width: 15%;
+text-align: center;
+border-radius: 15px;
+}
